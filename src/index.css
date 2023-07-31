@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slow-moves {
+  transition: 0.3s;
+}
+
+.sidebar-inactive {
+  transform: translateX(-100%);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
